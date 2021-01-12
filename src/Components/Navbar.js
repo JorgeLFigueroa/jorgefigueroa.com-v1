@@ -9,7 +9,7 @@ export const Navbar = () => {
     return (
       <Nav>
         <Logo href="/">
-            Jorge Figueroa
+            JF
         </Logo>
         <Hamburger onClick={() => setIsOpen(!isOpen)}>
           <span />
