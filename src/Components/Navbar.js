@@ -98,8 +98,3 @@ const Logo = styled.a`
     font-size: 1.7rem;
     color: black;
 `;
-
-const LogoImage = styled.img `
-    src: 'jflogo.png';
-    height: 100px;
-`
