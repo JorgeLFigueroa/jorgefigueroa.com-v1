@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import Button from "./Button";
+
+
+
 
 
 export const Navbar = () => {
@@ -21,7 +25,7 @@ export const Navbar = () => {
           <MenuLink href=''>Experience</MenuLink>
           <MenuLink href=''>Work</MenuLink>
           <MenuLink href=''>Contact</MenuLink>
-          <ResumeButton>Resume</ResumeButton>
+          <Button bttnText="Resume" link='https://drive.google.com/file/d/1ckCP7RzXyjSJ1x0Rt1OR1fob6U9F_YQT/view'></Button>
         </Menu>
       </Nav>
     );
@@ -31,7 +35,7 @@ const Nav = styled.div`
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
-    alight-items: center;
+    align-items: center;
     flex-wrap: wrap;
     position: absolute;
     top: 0;
@@ -59,13 +63,13 @@ const Hamburger = styled.div`
 `;
 
 const MenuLink = styled.a`
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     color: black;
     transition: all 0.3s ease-in;
-    font-size: 1rem;
+    font-size: 1.1rem;
 
     &:hover {
         color: white;
@@ -98,9 +102,4 @@ const Logo = styled.a`
 const LogoImage = styled.img `
     src: 'jflogo.png';
     height: 100px;
-`
-
-const ResumeButton = styled.button `
-
-
 `

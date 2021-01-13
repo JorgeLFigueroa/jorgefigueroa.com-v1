@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Button from "./Button";
 
 export const Hero = () => {
   return (
@@ -8,8 +9,10 @@ export const Hero = () => {
       <h2>Jorge Figueroa</h2>
       <h3>I build things for the web.</h3>
       <p>
-          I'm a Software Engineering student from Rochester, NY. Studying to be a Full-Stack Engineer.
+          I'm a Software Engineering student from Rochester, NY.
+          Studying to be a Full-Stack Engineer.
       </p>
+      <Button bttnText="Get In Touch" link='mailto:figueroajorge010@gmail.com'></Button>
     </HeroContainer>
   );
 };
@@ -37,5 +40,6 @@ const HeroContainer = styled.div`
   p {
     margin: 20px 0 0;
     max-width: 500px;
+    padding-bottom: 1rem;
   }
 `;
