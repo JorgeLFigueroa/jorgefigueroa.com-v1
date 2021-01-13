@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import About from './Components/About';
 import { Hero } from './Components/Hero';
 import { Navbar } from './Components/Navbar';
 
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar/>
       <SectionContainer>
         <Hero/>
+        <About/>
       </SectionContainer>
     </Container>
   )
@@ -28,6 +30,6 @@ const Container = styled.div`
 `
 const SectionContainer = styled.section`
   padding: 20%;
-
+  background: #063970;
 `
 
