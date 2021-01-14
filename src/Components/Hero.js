@@ -23,23 +23,32 @@ const HeroContainer = styled.div`
   min-height: 50vh;
 
   h1 {
-    margin: 0 0 30px 4px;
-    color: white;
-    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+    margin: 0 0 10px 4px;
+    color: #FFC09F;
+    font-size: 1.5rem;
     font-weight: 400;
   }
   @media (max-width: 480px) {
     margin: 0 0 20px 2px;
   }
 
+  h2 {
+    color: #0496FF;
+    font-size: 4rem;
+  }
+
   h3 {
     margin-top: 10px;
-    color: var(--slate);
+    color: #2AF5FF;
     line-height: 0.9;
+    font-size: 5rem;
+    padding-bottom: 10px;
   }
   p {
+    color: #ECE8EF;
     margin: 20px 0 0;
     max-width: 500px;
+    font-size: 1.1rem;
     padding-bottom: 1rem;
   }
 `;

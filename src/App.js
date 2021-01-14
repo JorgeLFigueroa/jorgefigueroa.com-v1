@@ -24,12 +24,12 @@ export default App;
 
 const Container = styled.div`
 
-  background: #063970;
+  background: #00487C;
   height: 100vh;
 
 `
 const SectionContainer = styled.section`
-  padding: 20%;
+  padding: 10%;
   background: #063970;
 `
 

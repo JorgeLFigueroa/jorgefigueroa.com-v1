@@ -41,6 +41,10 @@ const Nav = styled.div`
     top: 0;
     left: 0;
     right: 0;
+
+    :active {
+        background-color: white;
+    }
 `;
 
 const Hamburger = styled.div`
