@@ -71,12 +71,12 @@ const MenuLink = styled.a`
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: #ECE8EF;
     transition: all 0.3s ease-in;
     font-size: 1.1rem;
 
     &:hover {
-        color: white;
+        color: #2AF5FF;
     }
 `;
 

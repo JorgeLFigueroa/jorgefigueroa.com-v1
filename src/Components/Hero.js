@@ -6,13 +6,13 @@ export const Hero = () => {
   return (
     <HeroContainer>
       <h1>My name is</h1>
-      <h2>Jorge Figueroa</h2>
+      <h2>Jorge Figueroa.</h2>
       <h3>I build things for the web.</h3>
       <p>
           I'm a Software Engineering student from Rochester, NY.
           Studying to be a Full-Stack Engineer.
       </p>
-      <Button bttnText="Get In Touch" link='mailto:figueroajorge010@gmail.com'></Button>
+      <Button bttnText="Get In Touch" link='mailto:softwarebyjorge@gmail.com'></Button>
     </HeroContainer>
   );
 };
