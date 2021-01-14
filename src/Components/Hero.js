@@ -5,7 +5,7 @@ import Button from "./Button";
 export const Hero = () => {
   return (
     <HeroContainer>
-      <h1>Hi, my name is</h1>
+      <h1>My name is</h1>
       <h2>Jorge Figueroa</h2>
       <h3>I build things for the web.</h3>
       <p>
