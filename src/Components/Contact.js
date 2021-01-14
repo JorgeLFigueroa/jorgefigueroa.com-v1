@@ -25,12 +25,12 @@ const ContactContainer = styled.div `
     
 
     h1 {
-        color: #0496FF;
+        color: #2AF5FF;
         font-size: 3rem;
     }
 
     h2 {
-        color: #2AF5FF;
+        color: #0496FF;
     }
 
     p {
