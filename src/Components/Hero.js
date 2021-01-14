@@ -49,6 +49,6 @@ const HeroContainer = styled.div`
     margin: 20px 0 0;
     max-width: 500px;
     font-size: 1.1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
 `;

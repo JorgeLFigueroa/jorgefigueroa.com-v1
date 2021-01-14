@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import About from './Components/About';
+import Footer from './Components/Footer';
 import { Hero } from './Components/Hero';
 import { Navbar } from './Components/Navbar';
 
@@ -14,6 +15,7 @@ const App = () => {
         <Hero/>
         <About/>
       </SectionContainer>
+      <Footer/>
     </Container>
   )
 }

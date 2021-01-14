@@ -7,7 +7,6 @@ export default class About extends Component {
       <Container>
         <h1>About Me</h1>
         <p>
-          {" "}
           Hello! I'm Jorge, a software engineering student based in Rochester,
           NY.
         </p>
@@ -50,5 +49,6 @@ const Container = styled.div`
     text-decoration: none;
     color: #2AF5FF;
     font-weight: 500;
-  }
+  }  
 `;
+

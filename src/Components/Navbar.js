@@ -43,7 +43,7 @@ const Nav = styled.div`
     right: 0;
 
     :active {
-        background-color: white;
+        /* background-color: white; */
     }
 `;
 
