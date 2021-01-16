@@ -21,10 +21,10 @@ export const Navbar = () => {
           <span />
         </Hamburger>
         <Menu isOpen={isOpen}>
-          <MenuLink href=''>About</MenuLink>
-          <MenuLink href=''>Experience</MenuLink>
-          <MenuLink href=''>Work</MenuLink>
-          <MenuLink href=''>Contact</MenuLink>
+          <MenuLink id=''>About</MenuLink>
+          <MenuLink id=''>Experience</MenuLink>
+          <MenuLink id=''>Work</MenuLink>
+          <MenuLink id=''>Contact</MenuLink>
           <Button bttnText="Resume" link='https://drive.google.com/file/d/1ckCP7RzXyjSJ1x0Rt1OR1fob6U9F_YQT/view'></Button>
         </Menu>
       </Nav>
