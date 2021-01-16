@@ -47,7 +47,7 @@ export default class About extends Component {
 const Container = styled.div`
   h1 {
     padding-top: 7rem;
-    font-size: 30px;
+    font-size: 2rem;
     padding-bottom: 20px;
     color: #0496ff;
   }

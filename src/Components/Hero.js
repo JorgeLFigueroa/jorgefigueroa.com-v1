@@ -23,7 +23,8 @@ const HeroContainer = styled.div`
   min-height: 50vh;
 
   h1 {
-    margin: 0 0 10px 4px;
+    padding-top: 1rem;
+    margin: 0 0 5px 4px;
     color: #FFC09F;
     font-size: 1.5rem;
     font-weight: 400;
@@ -38,7 +39,7 @@ const HeroContainer = styled.div`
   }
 
   h3 {
-    margin-top: 10px;
+    margin-top: 12px;
     color: #2AF5FF;
     line-height: 0.9;
     font-size: 5rem;

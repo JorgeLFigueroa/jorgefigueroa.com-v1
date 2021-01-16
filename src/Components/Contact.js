@@ -30,6 +30,7 @@ const ContactContainer = styled.div `
     }
 
     h2 {
+        font-size: 2rem;
         color: #0496FF;
     }
 
