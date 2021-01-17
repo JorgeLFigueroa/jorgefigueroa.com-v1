@@ -1,20 +1,23 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import defaultImg from '../Styles/image-gallery.svg'
+import Icons from './Icons'
 
 export default class ProjectCard extends Component {
+
     render() {
         return (
             <CardContainer>
                 <ImageContainer>
-                    <img src={defaultImg} alt='default'></img>
+                    <img src={this.props.img} alt='default'></img>
                 </ImageContainer>
                 <InfoContainer>
-                    <h1> TITLE HERE </h1>
+                    <h1>{this.props.title}</h1>
                     <DescriptionContainer>
-                        <p> DESCRIPTION GOES HERE </p>
+                        <p>{this.props.desc}</p>
                     </DescriptionContainer>
+                    <p>{this.props.tools}</p>
                 </InfoContainer>
+                <Icons url={this.props.url}/>
             </CardContainer>
         )
     }
@@ -25,25 +28,32 @@ const CardContainer = styled.div `
     flex-direction: column;
     /* outline: 5px solid #001c30; */
     width: fit-content;
-    padding-right: 12rem;
+    /* padding-right: 5rem; */
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
 `
 
 const ImageContainer = styled.div ` 
     img {
-        height: 10rem;
-        width: 10rem;
+        height: 20rem;
+        width: 15rem;
     }
 `
 
 const InfoContainer = styled.div ` 
+    
     h1 {
         display: inline;
     }
-
+    p {
+        color: #ece8ef;
+    }
 `
 
 const DescriptionContainer = styled.div ` 
-    background-color: #001c30;
+    /* height: 3rem;
+    background-color: #001c30; */
     p {
         color: #ece8ef;
         

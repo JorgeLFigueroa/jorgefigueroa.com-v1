@@ -39,7 +39,7 @@ const HeroContainer = styled.div`
   }
 
   h3 {
-    margin-top: 12px;
+    margin-top: 10px;
     color: #2AF5FF;
     line-height: 0.9;
     font-size: 5rem;
