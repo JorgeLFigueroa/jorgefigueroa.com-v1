@@ -23,21 +23,15 @@ const HeroContainer = styled.div`
   min-height: 50vh;
 
   h1 {
-    padding-top: 1rem;
     margin: 0 0 5px 4px;
     color: #FFC09F;
     font-size: 1.5rem;
     font-weight: 400;
   }
-  @media (max-width: 480px) {
-    margin: 0 0 20px 2px;
-  }
-
   h2 {
     color: #0496FF;
     font-size: 4rem;
   }
-
   h3 {
     margin-top: 10px;
     color: #2AF5FF;
@@ -51,5 +45,24 @@ const HeroContainer = styled.div`
     max-width: 500px;
     font-size: 1.1rem;
     padding-bottom: 2rem;
+  }
+  @media (max-width: 480px) {
+    margin: 0 0 20px 2px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      padding-top: 3rem;
+      font-size: 1.1rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
   }
 `;
