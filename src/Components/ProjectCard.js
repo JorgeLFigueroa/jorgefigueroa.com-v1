@@ -60,7 +60,7 @@ const InfoContainer = styled.div`
   }
   @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 11px;
+        font-size: 10px;
     }
     p {
         font-size: 7px;
