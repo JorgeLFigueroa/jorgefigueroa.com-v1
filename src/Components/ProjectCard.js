@@ -45,8 +45,8 @@ const ImageContainer = styled.div`
   }
   @media only screen and (max-width: 600px) {
       img{
-        height: 20rem;
-        width: 12rem;   
+        height: 15rem;
+        width: 8rem;   
       }
   }
 `;
@@ -60,10 +60,10 @@ const InfoContainer = styled.div`
   }
   @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 1rem;
+        font-size: 11px;
     }
     p {
-        font-size: .7rem;
+        font-size: 7px;
     }
   }
 `;
@@ -76,7 +76,7 @@ const DescriptionContainer = styled.div`
   }
   @media only screen and (max-width: 600px) {
     p {
-        font-size: .7rem;
+        font-size: 9px;
     }
   }
 `;
