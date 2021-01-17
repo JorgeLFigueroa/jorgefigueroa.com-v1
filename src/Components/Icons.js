@@ -19,7 +19,7 @@ export default class Icons extends Component {
 }
 
 const IconsContainer = styled.div`
-  margin-top: 1rem;
+  margin-top: .5rem;
   align-items: center;
   ul li {
     display: inline;

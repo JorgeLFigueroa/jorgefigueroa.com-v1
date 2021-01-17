@@ -31,12 +31,15 @@ export default class Projects extends Component {
 }
 
 const ProjectsContainer = styled.div`
-  h1 {
+  padding-top: 7rem;
+  color: #0496ff;
+  padding-bottom: 20px;
+  /* h1 {
     padding-top: 7rem;
     font-size: 2rem;
     padding-bottom: 20px;
     color: #0496ff;
-  }
+  } */
 `;
 
 const ProjectCards = styled.div`
