@@ -32,7 +32,7 @@ const CardContainer = styled.div`
   margin-right: 3rem;
   margin-left: 3rem;
   @media only screen and (max-width: 600px) {
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-right: 1rem;
     margin-left: 1rem;
   }
@@ -40,8 +40,8 @@ const CardContainer = styled.div`
 
 const ImageContainer = styled.div`
   img {
-    height: 20rem;
-    width: 15rem;
+    height: 30rem;
+    width: 18rem;
   }
   @media only screen and (max-width: 600px) {
       img{

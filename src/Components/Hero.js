@@ -18,6 +18,7 @@ export const Hero = () => {
 };
 
 const HeroContainer = styled.div`
+  margin-top: 40%;
   flex-direction: column;
   align-items: flex-start;
   min-height: 50vh;
@@ -50,9 +51,15 @@ const HeroContainer = styled.div`
     margin: 0 0 20px 2px;
   }
 
+  @media only screen and (min-width: 1600px) {
+    margin-top: 0%;
+    margin-bottom: 17rem;
+  }
+
   @media only screen and (max-width: 600px) {
+    margin-top: 62%;
+    margin-bottom: 5rem;
     h1 {
-      padding-top: 3rem;
       font-size: 1.1rem;
     }
     h2 {

@@ -7,20 +7,20 @@ import smFrontPage from "../Styles/sm_front_page.jpg";
 export default class Projects extends Component {
   render() {
     return (
-      <ProjectsContainer>
-        <h1>Projects</h1>
+      <ProjectsContainer id='projects'>
+        <ProjectTitle>Projects</ProjectTitle>
         <ProjectCards>
           <ProjectCard
             img={ckFrontPage}
             title="Ranking Famous People"
-            desc="Ranking App based on famous people's popularity."
+            desc="An app ranking celebrities by popularity metrics."
             url="https://github.com/JorgeF010/RankingApp"
             tools="Android Studio / Java / JSoup"
           ></ProjectCard>
           <ProjectCard 
           img={smFrontPage} 
           title="Organize Me App"
-          desc="A recreation of the chrome extension Momentum."
+          desc="A recreation of Momentum: a Google Chrome Extension."
           url="https://github.com/JorgeF010/CalendarApp"
           tools="Android Studio / Java"
           ></ProjectCard>
@@ -34,12 +34,10 @@ const ProjectsContainer = styled.div`
   padding-top: 7rem;
   color: #0496ff;
   padding-bottom: 20px;
-  /* h1 {
-    padding-top: 7rem;
-    font-size: 2rem;
-    padding-bottom: 20px;
-    color: #0496ff;
-  } */
+`;
+
+const ProjectTitle = styled.h1`
+  font-size: 2rem;
 `;
 
 const ProjectCards = styled.div`

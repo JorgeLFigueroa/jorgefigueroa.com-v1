@@ -5,7 +5,7 @@ import Button from './Button';
 export default class Contact extends Component {
     render() {
         return (
-            <ContactContainer>
+            <ContactContainer id='contact'>
                 <h2>Let's talk!</h2>
                 <h1>Get In Touch</h1>
                 <p>

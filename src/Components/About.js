@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default class About extends Component {
   render() {
     return (
-      <Container>
+      <Container id='about'>
         <h1>About Me</h1>
         <p>
           Hello! I'm Jorge, a software engineering student based in Rochester,
