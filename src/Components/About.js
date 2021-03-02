@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default class About extends Component {
   render() {
     return (
-      <Container id='about'>
+      <Container id="about">
         <h1>About Me</h1>
         <p>
           Hello! I'm Jorge, a software engineering student based in Rochester,
@@ -32,6 +32,7 @@ export default class About extends Component {
             <li>JavaScript (ES6+)</li>
             <li>React</li>
             <li>Express.js</li>
+            <li>Node.js</li>
             <li>HTML &amp; CSS</li>
             <li>Java</li>
             <li>Android Studio</li>
@@ -78,7 +79,7 @@ const TechnologiesContainer = styled.div`
     color: #ece8ef;
   }
   li::before {
-  content: "• ";
-  color: #2af5ff;
-}
+    content: "• ";
+    color: #2af5ff;
+  }
 `;
