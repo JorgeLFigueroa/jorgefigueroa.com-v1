@@ -9,10 +9,13 @@ export const Hero = () => {
       <h2>Jorge Figueroa.</h2>
       <h3>I build things for the web.</h3>
       <p>
-          I'm a Software Engineering student from Rochester, NY.
-          Studying to be a Full-Stack Engineer.
+        I'm a Software Engineering student from Rochester, NY. Studying to be a
+        Full-Stack Engineer.
       </p>
-      <Button bttnText="Get In Touch" link='mailto:softwarebyjorge@gmail.com'></Button>
+      <Button
+        bttnText="Get In Touch"
+        link="mailto:softwarebyjorge@gmail.com"
+      ></Button>
     </HeroContainer>
   );
 };
@@ -25,23 +28,23 @@ const HeroContainer = styled.div`
 
   h1 {
     margin: 0 0 5px 4px;
-    color: #FFC09F;
+    color: #ffc09f;
     font-size: 1.5rem;
     font-weight: 400;
   }
   h2 {
-    color: #0496FF;
+    color: #0496ff;
     font-size: 4rem;
   }
   h3 {
     margin-top: 10px;
-    color: #2AF5FF;
+    color: #2af5ff;
     line-height: 0.9;
     font-size: 5rem;
     padding-bottom: 10px;
   }
   p {
-    color: #ECE8EF;
+    color: #ece8ef;
     margin: 20px 0 0;
     max-width: 500px;
     font-size: 1.1rem;
@@ -52,8 +55,20 @@ const HeroContainer = styled.div`
   }
 
   @media only screen and (min-width: 1600px) {
-    margin-top: 0%;
-    margin-bottom: 17rem;
+    margin-top: 5%;
+    margin-bottom: 16rem;
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    h3 {
+      font-size: 5rem;
+    }
+    p {
+      font-size: 1.25rem;
+    }
   }
 
   @media only screen and (max-width: 600px) {
