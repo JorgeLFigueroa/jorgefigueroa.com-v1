@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import { Hero } from './Components/Hero';
 import { Navbar } from './Components/Navbar';
 import Projects from './Components/Projects';
+import Work from './Components/Work';
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <SectionContainer>
         <Hero/>
         <About/>
+        <Work/>
         <Projects/> 
         <Contact/>
       </SectionContainer>
