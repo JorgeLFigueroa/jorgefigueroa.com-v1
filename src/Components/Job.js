@@ -36,7 +36,7 @@ const JobLocationDiv = styled.div `
         font-size: 1rem;
         font-style: italic;
     }
-    @media only screen and (min-width: 300px) {
+    @media only screen and (max-width: 300px) {
         h1 {
             font-size: 1rem;
             font-weight: bold;
@@ -66,7 +66,7 @@ const TitleAndDatesDiv = styled.div `
         font-size: .8rem;
         font-style: italic;
     }
-    @media only screen and (min-width: 300px) {
+    @media only screen and (max-width: 300px) {
         h2 {
             font-size: .9rem;
         }
