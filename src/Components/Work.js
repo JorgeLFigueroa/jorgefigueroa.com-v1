@@ -16,7 +16,7 @@ const Amplify = {
 };
 
 const Trellis = {
-    company: 'The Trellis Software Company.',
+    company: 'Trellis Software Company.',
     location: 'Fort Collins, CO',
     title: 'Full Stack Software Engineer',
     dates: '03/2021 - 06/2021',

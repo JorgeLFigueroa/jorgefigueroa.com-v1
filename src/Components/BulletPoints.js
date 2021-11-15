@@ -15,6 +15,6 @@ export default class BulletPoints extends Component {
 
 const BulletPoint = styled.li `
     text-indent: .5rem;
-    line-height: 1.4;
-    color: #ffffff;
+    line-height: 1.5;
+    font-size: .8rem;
 `
