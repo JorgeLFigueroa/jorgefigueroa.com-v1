@@ -5,9 +5,11 @@ export default class BulletPoints extends Component {
     render() {
         return (
             <div>
-             {this.props.data.map((item) => (
-                 <BulletPoint>{item}</BulletPoint>
-             ))}
+                <ul>
+                    {this.props.data.map((item) => (
+                        <BulletPoint>{item}</BulletPoint>
+                    ))}
+                </ul>
             </div>
          );
     }

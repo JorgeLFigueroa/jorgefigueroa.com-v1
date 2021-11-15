@@ -1,6 +1,24 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import BulletPoints from './BulletPoints';
 
+const data = {
+  points: [
+    'JavaScript',
+    'React',
+    'Express.js',
+    'Node.js',
+    'HTML & CSS',
+    'Java',
+    'Android Studio',
+    'PostgreSQL',
+    'Python',
+    'Selenium Webdriver',
+    'Jenkins',
+    'Jira',
+    'Firebase',
+  ]
+}
 export default class About extends Component {
   render() {
     return (
@@ -28,17 +46,7 @@ export default class About extends Component {
         </p>
         <p>Here are some technologies I've been working with:</p>
         <TechnologiesContainer>
-          <ul>
-            <li>JavaScript (ES6+)</li>
-            <li>React</li>
-            <li>Express.js</li>
-            <li>Node.js</li>
-            <li>HTML &amp; CSS</li>
-            <li>Java</li>
-            <li>Android Studio</li>
-            <li>PostgreSQL</li>
-            <li>Python</li>
-          </ul>
+          <BulletPoints data={data.points}></BulletPoints>
         </TechnologiesContainer>
       </Container>
     );
