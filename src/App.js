@@ -7,6 +7,7 @@ import Hero  from './Components/Hero';
 import { Navbar } from './Components/Navbar';
 import Projects from './Components/Projects';
 import Work from './Components/Work';
+import {ScrollToTop} from './Components/ScrollToTop';
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Work/>
         <Projects/> 
         <Contact/>
+        <ScrollToTop/>
       </SectionContainer>
       <Footer/>
     </Container>
