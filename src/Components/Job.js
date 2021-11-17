@@ -30,21 +30,24 @@ const JobDiv = styled.div `
 const JobLocationDiv = styled.div `
     padding-top: 1rem;
     display: flex;
+    h1 {
+        color: #2af5ff;
+    }
     h2 {
         padding-left: .5rem;
         padding-top: .5rem;
-        font-size: 1rem;
+        font-size: .9rem;
         font-style: italic;
     }
     @media only screen and (max-width: 300px) {
         h1 {
-            font-size: 1rem;
+            font-size: .9rem;
             font-weight: bold;
         }
         h2 {
             padding-left: .5rem;
             padding-top: .5rem;
-            font-size: .65rem;
+            font-size: .6rem;
             font-style: italic;
         }
     }
