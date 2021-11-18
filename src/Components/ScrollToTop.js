@@ -36,7 +36,7 @@ export const ScrollToTop = () => {
                 type='button'
                 onClick={scrollToTop}
             >
-                Jump to Top
+                SCROLL TO TOP
             </Button>
         </ButtonDiv>
     );
@@ -51,9 +51,10 @@ const ButtonDiv = styled.div `
 const Button = styled.button ` 
     display: inline-flex;
     align-items: center;
-    background-color: #2af5ff;
-    padding: 5px;
+    background-color: #0496ff;
+    padding: 7px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
     border-radius: 12px;
 `;
