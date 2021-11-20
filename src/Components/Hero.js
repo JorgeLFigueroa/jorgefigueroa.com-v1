@@ -97,7 +97,7 @@ export default class Hero extends Component {
 }
 
 const HeroContainer = styled.div`
-  margin-top: 40%;
+  margin-top: 2rem;
   flex-direction: column;
   align-items: flex-start;
   min-height: 60vh;
