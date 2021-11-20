@@ -57,40 +57,40 @@ export default class Hero extends Component {
     return (
       <HeroContainer>
         <div className='greeting'> 
-          <Typewriter
+          {(this.state.time < 2500) ? <Typewriter
             onInit={(typewriter) => {
               typewriter.typeString('Hi, my name is')
                 .pauseFor(2500)
                 .start();
             }}
-          />
+          /> : <h1>Hi, my name is</h1>}
         </div>
         <div className='name'> 
-          { (this.state.time > 2500) ? <Typewriter
+          { (this.state.time > 2500 && this.state.time < 4700) ? <Typewriter
             onInit={(typewriter) => {
               typewriter.typeString('Jorge Figueroa.')
                 .pauseFor(3000)
                 .start();
             }}
-          /> : null}
+          /> : (this.state.time > 4700) ? <h2>Jorge Figueroa.</h2> : null}
         </div>
         <div className='intro'> 
-          { (this.state.time > 4700) ? <Typewriter
+          { (this.state.time > 4700 && this.state.time < 8100) ? <Typewriter
             onInit={(typewriter) => {
               typewriter.typeString('I build things for the web.')
                 .pauseFor(3500)
                 .start();
             }}
-          /> : null}
+          /> : (this.state.time > 8100) ? <h3>I build things for the web.</h3> : null}
         </div>
-        <p>
+        {(this.state.time > 8400) ? <p>
           I'm a Software Engineering student from Rochester, NY. Studying to be a
           Full-Stack Engineer.
-        </p>
-        <Button
+        </p> : null}
+        {(this.state.time > 8400) ? <Button
           bttnText="Get In Touch"
           link="mailto:softwarebyjorge@gmail.com"
-        ></Button>
+        ></Button> : null}
       </HeroContainer>
     );
   }
@@ -100,7 +100,7 @@ const HeroContainer = styled.div`
   margin-top: 40%;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 50vh;
+  min-height: 60vh;
 
   .greeting {
     margin: 0 0 5px 4px;
