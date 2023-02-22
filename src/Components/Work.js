@@ -4,7 +4,7 @@ import Job from './Job'
 
 const Amplify = {
     company: 'Amplify.',
-    location: 'Brooklyn, NY',
+    location: 'REMOTE',
     title: 'Software Test Engineer',
     dates: '05/2021 - Present',
     description: [
@@ -17,13 +17,25 @@ const Amplify = {
 
 const Trellis = {
     company: 'Trellis Software Company.',
-    location: 'Fort Collins, CO',
+    location: 'REMOTE',
     title: 'Full Stack Software Engineer',
     dates: '03/2021 - 06/2021',
     description: [
         'Worked with software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance.',
         'Gathered and defined customer requirements to develop clear specifications for project plans.',
         'Gathered and defined customer requirements to develop clear specifications for project plans.'
+    ],
+}
+
+const Bby = {
+    company: 'BestBuy',
+    location: 'REMOTE',
+    title: 'Associate Software Engineer',
+    dates: 'Current',
+    description: [
+        'Working on recreating the cart and checkout contracts.',
+        'This includes creating new endpoints, classes, and refactoring legacy code.',
+        'In addition to that, I work on new cart and checkout features.',
     ],
 }
 
@@ -34,6 +46,7 @@ export default class Work extends Component {
                 <WorkHistoryTitle>Work History</WorkHistoryTitle>
                 <Job data={Amplify}></Job>
                 <Job data={Trellis}></Job>
+                <Job data={Bby}></Job>
             </WorkHistoryContainer>
         )
     }
