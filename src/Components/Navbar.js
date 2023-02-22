@@ -25,7 +25,7 @@ export const Navbar = () => {
           {/* <MenuLink id=''>Experience</MenuLink> */}
           <MenuLink href='#projects'>Work</MenuLink>
           <MenuLink href='#contact'>Contact</MenuLink>
-          <Button bttnText="Resume" link='https://drive.google.com/file/d/1ckCP7RzXyjSJ1x0Rt1OR1fob6U9F_YQT/view'></Button>
+          <Button bttnText="Resume" link='https://drive.google.com/file/d/1h6j__za-MH5LVnEZV51DtZRUeQRhvgka/view?usp=sharing'></Button>
         </Menu>
       </Nav>
     );
