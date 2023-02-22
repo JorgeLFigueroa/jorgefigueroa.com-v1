@@ -44,9 +44,9 @@ export default class Work extends Component {
         return (
             <WorkHistoryContainer>
                 <WorkHistoryTitle>Work History</WorkHistoryTitle>
+                <Job data={Bby}></Job>
                 <Job data={Amplify}></Job>
                 <Job data={Trellis}></Job>
-                <Job data={Bby}></Job>
             </WorkHistoryContainer>
         )
     }
