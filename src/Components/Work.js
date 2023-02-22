@@ -6,7 +6,7 @@ const Amplify = {
     company: 'Amplify.',
     location: 'REMOTE',
     title: 'Software Test Engineer',
-    dates: '05/2021 - Present',
+    dates: '05/2021 - 05/2022',
     description: [
         'Created accurate and successful test scripts to manage automated testing of certain products and features.',
         'Conducted regression testing, analyzed results and submitted observations to development team.',
