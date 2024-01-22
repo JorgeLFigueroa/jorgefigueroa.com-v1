@@ -5,6 +5,7 @@ import BulletPoints from './BulletPoints';
 const data = {
   points: [
     'JavaScript',
+    'Groovy',
     'React',
     'Express.js',
     'Node.js',
@@ -25,8 +26,8 @@ export default class About extends Component {
       <Container id="about">
         <h1>About Me</h1>
         <p>
-          Hello! I'm Jorge, a software engineering student based in Rochester,
-          NY.
+          Hello! I'm Jorge, a software engineering based in Seattle,
+          WA.
         </p>
         <p>
           I'm very passionate about creating things that live on the internet.
@@ -37,12 +38,10 @@ export default class About extends Component {
           providing efficient experiences.
         </p>
         <p>
-          I'm a 4th-year software engineering student at{" "}
+          I am a recent software engineering graduate from{" "}
           <a href="https://www.rit.edu/study/software-engineering-bs">
             Rochester Institute of Technology
           </a>
-          <br />
-          with an immersion in economics.
         </p>
         <p>Here are some technologies I've been working with:</p>
         <TechnologiesContainer>
