@@ -84,8 +84,7 @@ export default class Hero extends Component {
           /> : (this.state.time > 8100) ? <h3>I build things for the web.</h3> : null}
         </div>
         {(this.state.time > 8400) ? <p>
-          I'm a Software Engineering student from Rochester, NY. Studying to be a
-          Full-Stack Engineer.
+          I'm a Full-Stack Software Engineer in Seattle, WA.
         </p> : null}
         {(this.state.time > 8400) ? <Button
           bttnText="Get In Touch"

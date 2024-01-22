@@ -26,7 +26,7 @@ export default class About extends Component {
       <Container id="about">
         <h1>About Me</h1>
         <p>
-          Hello! I'm Jorge, a software engineering based in Seattle,
+          Hello! I'm Jorge, a full-stack software engineer based in Seattle,
           WA.
         </p>
         <p>
