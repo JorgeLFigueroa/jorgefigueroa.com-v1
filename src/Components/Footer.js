@@ -8,20 +8,13 @@ export default class Footer extends Component {
     return (
       <FooterContainer>
         <TextContainer>
-          <a href="https://github.com/JorgeLFigueroa/jorgefigueroa.com-v1">
-            <div>Designed &amp; Built by Jorge Figueroa</div>
-          </a>
+          <div>Designed &amp; Built by Jorge Figueroa</div>
         </TextContainer>
         <IconsContainer>
           <ul>
             <li>
               <a href="https://www.linkedin.com/in/jorge-f/">
                 <img src={linkedin} alt='Linkedin'></img>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/JorgeLFigueroa">
-                <img src={github} alt='Github'></img>
               </a>
             </li>
           </ul>

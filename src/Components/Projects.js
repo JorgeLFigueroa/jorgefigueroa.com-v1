@@ -14,14 +14,12 @@ export default class Projects extends Component {
             img={ckFrontPage}
             title="Ranking Famous People"
             desc="An app ranking celebrities by popularity metrics."
-            url="https://github.com/JorgeLFigueroa/RankingApp"
             tools="Android Studio / Java / JSoup"
           ></ProjectCard>
           <ProjectCard 
           img={smFrontPage} 
           title="Organize Me App"
           desc="A recreation of Momentum: a Google Chrome Extension."
-          url="https://github.com/JorgeLFigueroa/CalendarApp"
           tools="Android Studio / Java"
           ></ProjectCard>
         </ProjectCards>
